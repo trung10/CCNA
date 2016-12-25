@@ -11,11 +11,11 @@
 
 ##### Mô hình
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/TCP-IP-Model.png)
 
 * Mô hình OSI chia làm 4 tầng, có thể tham chiếu đến mô hình OSI như sau:
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/OSI-TCP-IP2.jpg)
 
 ##### Transport (giao thức UDP và TCP)
 
@@ -35,7 +35,7 @@
 
 * Cấu trúc
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/udppacket.gif)
 
 ##### TCP
 
@@ -50,7 +50,7 @@
 
 * Cấu trúc
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/TCP_UDP_headers.JPG)
 
 * Three-Way Handshake (Bắt tay 3 bước)
 
@@ -100,13 +100,13 @@ Server bắt buộc phải gửi thông báo lại bởi vì TCP là chuẩn tin
 
 ##### Cấu trúc Ethernet frame
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/ethernet-frame.png)
 
 ##### Địa chỉ MAC
 
 * Là dãy 48 bits
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/mac-address.png)
 
 * OUI định danh cho nhà sản xuất
 
@@ -121,7 +121,7 @@ Server bắt buộc phải gửi thông báo lại bởi vì TCP là chuẩn tin
 
 ##### Các loại chuẩn
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/cab1.jpg)
 
 * 10 Base-T trong đó: 10 là tốc độ MB/s, T viết tắt của Twisted-Pair xoắn đôi
 * UTP (Unshield Twisted Pair) Cáp xoắn đôi không có vỏ bảo vệ
@@ -129,7 +129,7 @@ Server bắt buộc phải gửi thông báo lại bởi vì TCP là chuẩn tin
 
 ##### Bấm cáp
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/cab2.jpg)
 
 * Cáp thẳng là 2 đầu bấm chuẩn A hết hoặc B hết
 * Cáp chéo 1 đầu A một đầu B
@@ -144,7 +144,7 @@ Server bắt buộc phải gửi thông báo lại bởi vì TCP là chuẩn tin
 
 ##### Cáp đấu nối trong mạng WAN
 
-![](đường dẫn) (<img />)
+![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/cab3.jpg)
 
 * Dùng cab serial 
 * Phía trên là cổng WIC-1T của router và đầu cáp DB-60
