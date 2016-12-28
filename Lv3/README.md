@@ -4,13 +4,12 @@
 
 ##### [Cấu trúc IP Address](#2)
 
-##### [TCP/IP](#1)
 
 
 <a name = "1"></a>
 ## IP Header
 
-![](?)
+![](https://github.com/trung10/CCNA/blob/master/Lv3/Pictures/ip-header-2.png)
 
 * Version cho biết giao thức đang chạy ở phiên bản nào
 * Header Length là chiều dài của header
@@ -28,7 +27,7 @@
 <a name = "2"></a>
 ## Cấu trúc IP Address
 
-![](?)
+![](https://github.com/trung10/CCNA/blob/master/Lv3/Pictures/IPv4.png)
 
 ##### Lưu ý
 
@@ -38,7 +37,7 @@
 
 ##### Các lớp mạng
 
-![](?)
+![](https://github.com/trung10/CCNA/blob/master/Lv3/Pictures/DiaChiIP2.jpg)
 
 > 127.0.0.0 để làm mạng loopback
 
