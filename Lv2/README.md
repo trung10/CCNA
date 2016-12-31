@@ -98,6 +98,19 @@ Server bắt buộc phải gửi thông báo lại bởi vì TCP là chuẩn tin
 
 ##### CSMA/CD (Đa truy nhập cảm bến sóng mạng dò được xung đột)
 
+![11](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/19583.png)
+
+> Carrier sense - điều này được hiểu như “nghe trước khi nói”. Một máy chuẩn bị truyền một frame đi trước tiên nó nghe xem đối tượng nhận hiện thời đang dỗi và có thể đáp ứng quá trình truyền tin.
+
+> Talk if quiet - Được hiểu như chỉ nói khi đang im lặng, nếu hệ thống lỗi nó sẽ lặp lại lần sau cho đến bao giờ nó kiểm tra thấy hệ thống dỗi nó bắt đầu truyền tin
+
+> Collision - Một sung đột xảy ra có nghĩa là sự vượt quá điện áp trên cable truyền. Một xung đột xảy ra bởi hai đối tượng cùng truyền tin trong một thời điểm nếu xảy ra vấn đề này cả hai frames sẽ phải truyền lại.
+
+> Collision detection - nếu một đối tượng phát hiện ra xung đột trong quá trình truyền nó sẽ dừng lại đợi đến khi hệ thống không còn xung đột nó mới truyền gói tin.
+
+> Backoff – sau một xung đột, một đối tượng sẽ đợi sau một khoảng thời gian nhất định được gọi là backoff, sau thời gian backoff này hệ thống sẽ kiển tra lại và với thời gian backoff được lấy ngẫu nhiên dựa trên thuật toàns backoff. Nó trống lại toàn bộ các đối tượng yêu cầu truyền tin trong lúc đang xảy ra xung đột.
+
+
 ##### Cấu trúc Ethernet frame
 
 ![](https://github.com/trung10/CCNA/blob/master/Lv2/Pictures/ethernet-frame.png)
