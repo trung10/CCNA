@@ -23,7 +23,7 @@
 
 ##### Bảng định tuyến
 
-![](https://github.com/trung10/CCNA/tree/master/Lv5/Pictures/1.png)
+![](https://github.com/trung10/CCNA/blob/master/Lv5/Pictures/1.png)
 
 * Câu lệnh
 
