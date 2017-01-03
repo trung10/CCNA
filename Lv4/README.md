@@ -10,8 +10,7 @@
 ##### [Show các cổng](#8)
 ##### [Đặt IP cho cổng](#9)
 ##### [Lưu cấu hình](#10)
-##### [](#8)
-##### [](#8)
+##### [Xóa cấu hình trong NVRAM](#11)
 
 
 
@@ -42,7 +41,9 @@ Router#show running-config
 ##### Console-passwork
 
 Router(config)#line console 0
+
 Router(config-line)#passwork xxx
+
 Router(config-line)#login
 
 <a name = "5"></a>
@@ -69,8 +70,11 @@ Router#show ip interface brief
 ##### Đặt IP cho cổng
 
 Router(config)#interface s0/0
+
 Router(config-if)#no shutdown
+
 Router(config-if)#ip address 192.168.1.1 255.255.255.0
+
 Router(config-if)#description "mô tả"
 
 <a name = "10"></a>
@@ -78,3 +82,9 @@ Router(config-if)#description "mô tả"
 
 Router#copy running-config startup-config
 
+<a name = "a"></a>
+##### Xóa cấu hình trong NVRAM
+
+Router#erase startup-config
+
+Router#reload //khởi động lại router

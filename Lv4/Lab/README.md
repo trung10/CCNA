@@ -1,0 +1,5 @@
+![](https://github.com/trung10/CCNA/blob/master/Lv4/Pictures/8.jpg)
+![](https://github.com/trung10/CCNA/blob/master/Lv4/Pictures/03-01-2017-09-28-10.jpg)
+![](https://github.com/trung10/CCNA/blob/master/Lv4/Pictures/03-01-2017-09-28-42.jpg)
+![](https://github.com/trung10/CCNA/blob/master/Lv4/Pictures/03-01-2017-09-30-10.jpg)
+![](https://github.com/trung10/CCNA/blob/master/Lv4/Pictures/03-01-2017-09-30-34.jpg)
