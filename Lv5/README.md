@@ -4,8 +4,6 @@
 
 
 
-
-
 -----------
 
 <a name = "1"></a>
@@ -25,7 +23,7 @@
 
 ##### Bảng định tuyến
 
-![](ccc)
+![](https://github.com/trung10/CCNA/tree/master/Lv5/Pictures/1.png)
 
 * Câu lệnh
 
