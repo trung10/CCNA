@@ -38,3 +38,9 @@
 > Router(config)# ip route network [mask] {addess | interface} [distance] [permanent]
 
 
+* Ví dụ
+
+> r(config)#ip route network 255.255.255.0 192.168.1.0 s0/0
+
+
+
