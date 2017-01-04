@@ -25,7 +25,9 @@
 ##### Cấu hình
 
 > Router(config)#line vty 0 4
+
 > Router(config-line)#passwork xxx
+
 > Router(config-line)#login
 
 <a name = "2"></a>
@@ -42,14 +44,20 @@
 * Cho biết
 
 > Hostname, Local-interface cổng đấu với láng riềng, cổng láng riềng đấu với mình, dòng của router láng riềng
+
 > IOS của láng riềng, IP láng riềng, cho biết láng riềng là router hay switch, có chạy giao thức IGMP
 
 ##### Cấu hình
 
+
 > Router#show cdp neighbor
+
 > Router#show cdp neighbor detail (xem cho tiết)
+
 > Router#show cdp entry *
+
 > Router(config)#no cdp run
+
 > Router(config-if)#no cdp enable
 
 <a name = "3"></a>
@@ -60,9 +68,14 @@
 ##### Cấu hình
 
 > Router(config)#ip domain-name xxx.com //quản lý
+
 > Router(config)#username cisco passwork xxx
+
 > Router(config)#crypto key generate rsa
+
 > Router(config)#line vty 0 4
+
 > Router(config-line)#login local
+
 > Router(config-line)#transport input ssh telnet
 
