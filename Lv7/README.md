@@ -7,7 +7,7 @@
 -------
 
 
-![]()
+![](https://github.com/trung10/CCNA/blob/master/Lv7/Pictures/switch.png)
 
 <a name = "1"></a>
 ## Switch Introdution
@@ -47,6 +47,21 @@ SW(config)#ip add 192.168.1.1 255.255.255.0
 SW#show mac-address-table
 ````
 
+<a name = "2"></a>
+## Port Security
+
+````
+S(config)#interface fa0/1
+S(config-if)#switchport mode access
+S(config-if)#switchport port-security
+S(config-if)#switchport port-security maximum 1 //gioi han host truy nhap vao cong
+S(config-if)#switchport port-security mac-address xxxx.xxxx.xxxx
+S(config-if)#switchport port-security violation shutdown
+````
 
 
+> S(config-if)#switchport port-security mac-address sticky //switch tự động học n MAC đầu tiên bằng cánh cắm lần lượt n PC
 
+> restrict //là dropframe, phát syslog
+
+> protect //là dropframe, không syslog
